@@ -11,7 +11,7 @@ export default function MainNavigation() {
     <StyledNavigation>
       <Link href="./">home</Link>
       <Link href="./story">story</Link>
-      <Link href="./yours">your story</Link>
+      <Link href="./map">map</Link>
       <Link href="./campaign">campaign</Link>
       <Link href="./stop">shop</Link>
     </StyledNavigation>

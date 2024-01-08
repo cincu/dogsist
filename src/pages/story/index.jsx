@@ -47,7 +47,6 @@ export default function StoryPage() {
           }}
         >
           <Tab>why Dogs?</Tab>
-          <Tab>dogs everywhere</Tab>
           <Tab>why Turkey?</Tab>
           <Tab>why Istanbul?</Tab>
         </TabList>
@@ -55,9 +54,7 @@ export default function StoryPage() {
         <TabPanel>
           <WhyDogs />
         </TabPanel>
-        <TabPanel>
-          <DogsMap />
-        </TabPanel>
+
         <TabPanel>
           <p>the relationship between islam and animals</p>
         </TabPanel>
