@@ -1,4 +1,4 @@
-import DogsMap from "../../../Components/DogsMap/DogsMap";
+import DogsMap from "@/../Components/DogsMap/DogsMap";
 import { Tab, TabList, Tabs, TabPanel } from "react-tabs";
 export default function MapPage() {
   return (

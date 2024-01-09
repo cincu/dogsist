@@ -1,18 +1,33 @@
-export default function DogsMap() {
+import React, { useEffect } from "react";
+
+const DogsMap = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://datawrapper.dwcdn.net/9uDhN/embed.js?v=2";
+    script.async = true;
+    script.defer = true;
+    script.charset = "utf-8";
+
+    // Append the script to the document body
+    document.body.appendChild(script);
+
+    return () => {
+      // Remove the script when the component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
-    <div style={{ minHeight: "500px" }}>
-      <script
-        type="text/javascript"
-        defer
-        src="https://datawrapper.dwcdn.net/JF407/embed.js?v=1"
-        charset="utf-8"
-      ></script>
+    <div>
       <noscript>
         <img
-          src="https://datawrapper.dwcdn.net/JF407/full.png"
-          alt="datawrapper"
+          style={{ minHeight: "463px" }}
+          src="https://datawrapper.dwcdn.net/9uDhN/full.png"
+          alt=""
         />
       </noscript>
     </div>
   );
-}
+};
+
+export default DogsMap;
