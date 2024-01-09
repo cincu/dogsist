@@ -53,7 +53,6 @@ export default function MapPage() {
             it is important to give examples from different religions,
             geographies, colonial, indigenous and modern civilizations
           </p>
-          <DogsMap />
         </TabPanel>
         <TabPanel>
           <h4>Existing Free Roamers</h4>

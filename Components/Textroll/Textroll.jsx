@@ -21,7 +21,9 @@ function Textroll() {
         "free",
         "Stray canines",
         "Wild dogs",
-        "Nomadic",
+        "urban dog",
+        "street dog",
+        "unowned",
       ];
       const text = items[Math.floor(Math.random() * items.length)];
       const randomEntry = Math.ceil(Math.random() * stageWidth);

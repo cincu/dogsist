@@ -16,7 +16,9 @@ export default function HomePage({ name }) {
         but we can at least hope to find ways to co-exist. Annihilation is not
         the answer.
       </p>
-      <p>{name} is an acronym for sokak-köpeği:street-dog</p>
+      <p style={{ position: "fixed", bottom: "50px" }}>
+        * {name} is an acronym for sokak-köpeği in Turkish: street-dog
+      </p>
     </div>
   );
 }

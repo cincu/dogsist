@@ -30,9 +30,9 @@ a {
 .container {
   position: absolute;
   z-index: -1;
-  height: 400px;
+  height: 100%;
   width: 100%;
-  background-color: gray;
+  background-color: rgb(117, 117, 164);
   overflow: hidden;
 }
 
