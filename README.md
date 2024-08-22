@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🐕 Stray Dogs of Istanbul: History, Ownership, and Coexistence
+Welcome to the Stray Dogs of Istanbul project, a web application developed as part of my Master's thesis. This project explores the history of stray dogs in Istanbul, delves into the complex issue of ownership, and proposes sustainable solutions to the challenges they present, while advocating for their respectful co-existence.
 
-## Getting Started
+📚 Project Overview
+Stray dogs have been a part of Istanbul's history for centuries, symbolizing both the city’s rich cultural heritage and the ongoing challenges of urban cohabitation. This project aims to shed light on the following key areas:
 
-First, run the development server:
+Historical Context: Understanding the long-standing relationship between the city and its stray dogs.
+Ownership Challenges: Investigating the legal and social aspects of stray dog ownership.
+Data Visualization: Integrating Datawrapper to create dynamic maps and visualizations that illustrate the distribution and movement of stray dogs across the city.
+Proposed Solutions: Presenting two innovative solutions to manage the stray dog population, ensuring humane treatment while minimizing potential issues.
+🛠 Features
+Interactive Map Visualization: Using Datawrapper, the project visualizes the locations and movements of stray dogs in Istanbul.
+Historical Insights: A comprehensive overview of the history and cultural significance of stray dogs in Istanbul.
+Solution Proposals: Offering two potential strategies to address the challenges associated with stray dogs while promoting peaceful co-existence.
+🚀 Getting Started
+Prerequisites
+To run this project locally, ensure you have the following installed:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Node.js
+npm (Node Package Manager)
+Installation
+Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy code
+git clone https://github.com/yourusername/stray-dogs-istanbul.git
+Navigate to the project directory:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+bash
+Copy code
+cd stray-dogs-istanbul
+Install the necessary dependencies:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+bash
+Copy code
+npm install
+Start the development server:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+bash
+Copy code
+npm start
+The application should now be running on http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Deployment
+To deploy the project for production, run:
 
-## Learn More
+bash
+Copy code
+npm run build
+This will create an optimized build of the project in the build directory, which can be served using any static site hosting service.
 
-To learn more about Next.js, take a look at the following resources:
+🔗 Integration with Datawrapper
+The project leverages Datawrapper for generating and embedding visualizations. Ensure you have a Datawrapper account and API key for accessing the services. For more information on how to integrate Datawrapper, refer to their official documentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🧠 Further Development
+This project is a work in progress. Future developments will include:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enhancing the visualization features with more data layers.
+Incorporating feedback mechanisms for users to report stray dog sightings.
+Expanding the proposed solutions based on community input.
